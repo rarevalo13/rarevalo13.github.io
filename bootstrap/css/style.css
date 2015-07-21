@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:500);
+
+body{
+  background-color: #2c3e50;
+}
+
+#navigation{
+  margin-top: 50px;
+}
+
+#navigation li a {
+  color: #ecf0f1;
+}
+
+#navigation li a:hover{
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+
+
+
+#aly-baking{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.siteTitle{
+  color: #ecf0f1;
+  position: absolute;
+  top: 110px;
+  left:45px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 56px;
+}
+
+@media only screen and (max-width: 400px) {
+  .siteTitle{
+    color: red;
+  }
+}
