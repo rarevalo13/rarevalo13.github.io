@@ -15,12 +15,20 @@ body{
 }
 
 .siteTitle{
-  color: #ecf0f1;
+  color: #3498db;
   position: absolute;
   top: 110px;
   left:45px;
   font-family: 'Orbitron', sans-serif;
   font-size: 56px;
+}
+.siteTitle a:link{
+  text-decoration: none;
+  color: #3498db;
+}
+
+.siteTitle a:hover{
+  color: #3498db;
 }
 
 #main{
@@ -31,8 +39,11 @@ body{
   margin-top: 15px;
 }
 
-.copyright{
+.copyright h2{
   margin-top: 50px;
+  color: #3498db;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
 }
 
 @media only screen and (max-device-width: 480px) {
