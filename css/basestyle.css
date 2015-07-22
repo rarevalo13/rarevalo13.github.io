@@ -46,6 +46,15 @@ body{
   font-size: 15px;
 }
 
-@media only screen and (max-device-width: 480px) {
-
-	}
+@media all and (max-width: 480px) {
+    #effect-2 figure figcaption h3 {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 360px) {
+    #effect-2 figure figcaption h3 {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
